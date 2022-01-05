@@ -9,7 +9,37 @@ entries:
           url: https://hub.docker.com/_/busybox
     apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.870617+02:00"
+    created: "2022-01-06T06:39:31.7212868+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.10.3
+    description: A generic helm cronjob chart for kubernetes
+    digest: 54a33b5c08dce266f72adc0bb6c50100eb32cdf92b1a91e503674e594330e3b3
+    home: https://github.com/DrPsychick
+    icon: https://raw.githubusercontent.com/DrPsychick/charts/master/drpsychick/cronjobs/icon.png
+    keywords:
+    - cronjob
+    maintainers:
+    - email: drpsychick@drsick.net
+      name: DrPsychick
+      url: https://github.com/DrPsychick
+    name: cronjobs
+    sources:
+    - https://github.com/DrPsychick/charts
+    type: application
+    urls:
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.8.tgz
+    version: 0.0.8
+  - annotations:
+      artifacthub.io/links: |
+        - name: Image source
+          url: https://github.com/docker-library/busybox
+        - name: Image DockerHub
+          url: https://hub.docker.com/_/busybox
+    apiVersion: v2
+    appVersion: latest
+    created: "2022-01-06T06:39:31.7183164+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: d07dbe13fe3f82444408da5ae3c330ae3a95eccbaba93087ba0a70ff4e91b9bc
     home: https://github.com/DrPsychick
@@ -25,7 +55,7 @@ entries:
     - https://github.com/DrPsychick/charts
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.7.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.7.tgz
     version: 0.0.7
   - annotations:
       artifacthub.io/links: |
@@ -35,7 +65,7 @@ entries:
           url: https://hub.docker.com/_/busybox
     apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.869533+02:00"
+    created: "2022-01-06T06:39:31.7170838+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: 2e587bc0986c4dedd123c27d2f1d30bf6412fa72da9c2558f252d04b95dd079c
     home: https://github.com/DrPsychick
@@ -50,7 +80,7 @@ entries:
     - https://github.com/DrPsychick/charts
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.6.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.6.tgz
     version: 0.0.6
   - annotations:
       artifacthub.io/links: |
@@ -60,7 +90,7 @@ entries:
           url: https://hub.docker.com/_/busybox
     apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.865567+02:00"
+    created: "2022-01-06T06:39:31.7159967+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: 710bbe5a76de29943bd9826b48b1beeb1c3b13b2f89a81b23770b160eea4adf6
     home: https://github.com/DrPsychick
@@ -73,7 +103,7 @@ entries:
     - https://github.com/DrPsychick/charts
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.5.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.5.tgz
     version: 0.0.5
   - annotations:
       artifacthub.io/links: |
@@ -83,7 +113,7 @@ entries:
           url: https://hub.docker.com/_/busybox
     apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.863999+02:00"
+    created: "2022-01-06T06:39:31.7147732+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: 9cddb23999a9dea0743f036d0d543a4f730a193d33510a2d58a4879d516355c2
     home: https://github.com/DrPsychick
@@ -96,7 +126,7 @@ entries:
     - https://github.com/DrPsychick/charts
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.4.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.4.tgz
     version: 0.0.4
   - annotations:
       artifacthub.io/links: |
@@ -106,7 +136,7 @@ entries:
           url: https://hub.docker.com/_/busybox
     apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.86267+02:00"
+    created: "2022-01-06T06:39:31.7135313+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: 15716b2116ed6677472ba2b2c1017a5a5901c52ce9c45139c0e2a740e9bc6e43
     home: https://github.com/DrPsychick
@@ -119,27 +149,27 @@ entries:
     - https://github.com/DrPsychick/charts
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.3.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.861985+02:00"
+    created: "2022-01-06T06:39:31.7121096+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: 91bb4be72bb96f3c507a1508f3e181e6b7af14cad24439d68cdfd79d8c394758
     name: cronjobs
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.2.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-17T14:50:18.861239+02:00"
+    created: "2022-01-06T06:39:31.7109096+08:00"
     description: A generic helm cronjob chart for kubernetes
     digest: c735ee2fc39fedacce44ecd086d43a95604d4645cb26311eb763c7cfd5aee047
     name: cronjobs
     type: application
     urls:
-    - https://drpsychick.github.io/charts/cronjobs-0.0.1.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/cronjobs-0.0.1.tgz
     version: 0.0.1
   nginx-phpfpm:
   - annotations:
@@ -150,7 +180,7 @@ entries:
           url: https://hub.docker.com/_/php?tab=tags&ordering=last_updated&name=alpine&page=1
     apiVersion: v2
     appVersion: 8-fpm-alpine
-    created: "2021-04-17T14:50:18.872239+02:00"
+    created: "2022-01-06T06:39:31.7249879+08:00"
     description: A chart for an nginx pod with multiple phpfpm pods
     digest: c8a89f120117e45d01f69c68bd47163b885a3442bbbf53227716269a1098526a
     home: https://github.com/DrPsychick
@@ -168,6 +198,6 @@ entries:
     - https://github.com/DrPsychick/charts
     type: application
     urls:
-    - https://drpsychick.github.io/charts/nginx-phpfpm-0.0.2.tgz
+    - https://mansunkuo.github.io/DrPsychick-charts/nginx-phpfpm-0.0.2.tgz
     version: 0.0.2
-generated: "2021-04-17T14:50:18.860045+02:00"
+generated: "2022-01-06T06:39:31.7094151+08:00"
